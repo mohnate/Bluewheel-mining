@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #0e161b;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  /* background-color: black; */
+  background: linear-gradient(
+    180deg,
+    rgba(19, 146, 131, 0.1) 0%,
+    rgba(19, 146, 131, 0.1) 100%
+  );
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgb(19, 146, 131);
+}
+.topbar::-webkit-scrollbar {
+  width: 1px;
+}
+
+.topbar::-webkit-scrollbar-track {
+  /* background-color: black; */
+  background: linear-gradient(
+    180deg,
+    rgba(59, 58, 59, 0.1) 0%,
+    rgba(58, 56, 56, 0.1) 100%
+  );
+}
+.topbar::-webkit-scrollbar-thumb {
+  border: 7px solid transparent;
+  border-radius: 100px;
+  background-color: #777;
+  background-clip: content-box;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.circle-progress__value {
+  stroke: #3fcdc3 !important;
+  stroke-linecap: round !important;
+}
